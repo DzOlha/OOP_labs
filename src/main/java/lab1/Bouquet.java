@@ -7,25 +7,26 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Bouquet {
-    private int cost;
+    private double cost;
     private Flower[] flowers;
     private Accessory[] accessories;
     public void setCost(int c){cost = c;}
     public void setFlowers(Flower[] f){flowers = f;}
     public void setAccessories(Accessory[] accessories) {this.accessories = accessories;}
 
-    public int getCost(){return cost;}
+    public double getCost(){return cost;}
     public Flower[] getFlowers() {return flowers;}
     public Accessory[] getAccessories() {return accessories;}
 
+    public Bouquet(){}
     public Bouquet(Flower[] flowers, Accessory[] accessories){
         Arrays.sort(flowers, new Flower.CompFreshRate());
         this.flowers = flowers;
         this.accessories = accessories;
         this.cost = calcBouquetCost();
     }
-    public int calcBouquetCost(){
-        int sum = 0;
+    public double calcBouquetCost(){
+        double sum = 0;
         int j = 0;
         int sizeFl = flowers.length;
         int sizeAcc = accessories.length;
@@ -58,13 +59,12 @@ public class Bouquet {
         System.out.println("COST = " + cost);
     }
     public ArrayList<Flower> findFlowerByHeightRange(double a, double b){
-        ArrayList<Flower> flowersFromHeightRange = new ArrayList<>();
+        ArrayList<Flower> flowersFromHeightRange = new ArrayList<Flower>();
         int size = flowers.length;
         double tmpHeight = 0;
         for (int i = 0; i < size; i++) {
             tmpHeight = flowers[i].getHeight();
             if(tmpHeight >= a && tmpHeight <= b){
-                System.out.println(flowers[i]);
                 flowersFromHeightRange.add(flowers[i]);
             }
         }

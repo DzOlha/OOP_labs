@@ -1,10 +1,14 @@
 package lab1.accessories;
 
 public class Accessory {
-    private double price;
-    private String color;
-    private String name;
-    public void setPrice(double p){price = p;}
+    protected double price;
+    protected String color;
+    protected String name;
+    public void setPrice(double p){
+        if(p > 0)
+            price = p;
+        else System.out.println("Price must be positive number!");
+    }
     public void setColor(String c){color = c;}
 
     public void setName(String name) {this.name = name;}
@@ -13,9 +17,10 @@ public class Accessory {
     public String getColor(){return color;}
     public String getName() {return name;}
 
+    public Accessory(){}
     public Accessory(String name, double price, String color){
         this.name = name;
-        this.price = price;
+        setPrice(price);
         this.color = color;
     }
     public String toString(){
