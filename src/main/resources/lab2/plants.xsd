@@ -1,0 +1,53 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Greenhouse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Flower" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Soil">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="podzolic"/>
+                                        <xs:enumeration value="chernozem"/>
+                                        <xs:enumeration value="sod-podzolic"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="VisualParameters">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="stemColor"/>
+                                        <xs:element type="xs:string" name="leafColor"/>
+                                        <xs:element type="xs:string" name="color"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="GrowingTips">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:byte" name="temperature"/>
+                                        <xs:element type="xs:string" name="is_lightingRequire"/>
+                                        <xs:element type="xs:short" name="watering"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Propagation">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="leaves"/>
+                                        <xs:enumeration value="cuttings"/>
+                                        <xs:enumeration value="seeds"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:ID" name="id" use="required"/>
+                        <xs:attribute type="xs:string" name="name" use="required"/>
+                        <xs:attribute type="xs:string" name="origin" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

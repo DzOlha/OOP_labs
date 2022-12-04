@@ -12,7 +12,7 @@
             <is_lightingRequire>true</is_lightingRequire>
             <watering>10000</watering>
         </GrowingTips>
-        <Multiplying>cuttings</Multiplying>
+        <Propagation>cuttings</Propagation>
     </Flower>
     <Flower id="2" name="violet" origin="UK">
         <Soil>sod-podzolic</Soil>
@@ -26,7 +26,7 @@
             <is_lightingRequire>true</is_lightingRequire>
             <watering>2500</watering>
         </GrowingTips>
-        <Multiplying>leaves</Multiplying>
+        <Propagation>leaves</Propagation>
     </Flower>
     <Flower id="3" name="tulip" origin="Kazakhstan">
         <Soil>podzolic</Soil>
@@ -40,7 +40,7 @@
             <is_lightingRequire>true</is_lightingRequire>
             <watering>6250</watering>
         </GrowingTips>
-        <Multiplying>seeds</Multiplying>
+        <Propagation>seeds</Propagation>
     </Flower>
     <Flower id="4" name="orchidee" origin="Japan ">
         <Soil>sod-podzolic</Soil>
@@ -54,6 +54,6 @@
             <is_lightingRequire>true</is_lightingRequire>
             <watering>2000</watering>
         </GrowingTips>
-        <Multiplying>seeds</Multiplying>
+        <Propagation>seeds</Propagation>
     </Flower>
 </Greenhouse>
