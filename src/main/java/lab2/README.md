@@ -14,10 +14,10 @@
 ## Option #1: Greenhouse.
 The plants contained in the greenhouse have the following characteristics:
 * Name - the name of the plant.
-* Soil - soil for planting, which can be of the following types: podzolic, soil, sod-podzolic.
+* Soil - soil for planting, which can be of the following types: podzolic, chernozem, sod-podzolic.
 * Origin - the place of origin of the plant.
 * Visual parameters (there must be several) – external parameters: stem color, leaf color, average plant size.
 * Growing tips (should be several) - preferred growing conditions: temperature (in degrees), lighting (light-requiring or not), watering (ml per week).
 * Multiplying - reproduction: leaves, cuttings or seeds.
-  Name the root element Flower.
+ 
 * #### Name the root element Flower.

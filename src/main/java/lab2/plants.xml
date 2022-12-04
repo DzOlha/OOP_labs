@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "WINDOWS-1251"?>
+<Greenhouse>
+    <Flower id="1" name="rose" origin="China">
+        <Soil>chernozem</Soil>
+        <VisualParameters>
+            <stemColor>green</stemColor>
+            <leafColor>green</leafColor>
+            <color>white</color>
+        </VisualParameters>
+        <GrowingTips>
+            <temperature>27</temperature>
+            <is_lightingRequire>true</is_lightingRequire>
+            <watering>10000</watering>
+        </GrowingTips>
+        <Multiplying>cuttings</Multiplying>
+    </Flower>
+    <Flower id="2" name="violet" origin="UK">
+        <Soil>sod-podzolic</Soil>
+        <VisualParameters>
+            <stemColor>green</stemColor>
+            <leafColor>dark purple</leafColor>
+            <color>purple</color>
+        </VisualParameters>
+        <GrowingTips>
+            <temperature>18</temperature>
+            <is_lightingRequire>true</is_lightingRequire>
+            <watering>2500</watering>
+        </GrowingTips>
+        <Multiplying>leaves</Multiplying>
+    </Flower>
+    <Flower id="3" name="tulip" origin="Kazakhstan">
+        <Soil>podzolic</Soil>
+        <VisualParameters>
+            <stemColor>green</stemColor>
+            <leafColor>green</leafColor>
+            <color>red</color>
+        </VisualParameters>
+        <GrowingTips>
+            <temperature>22</temperature>
+            <is_lightingRequire>true</is_lightingRequire>
+            <watering>6250</watering>
+        </GrowingTips>
+        <Multiplying>seeds</Multiplying>
+    </Flower>
+    <Flower id="4" name="orchidee" origin="Japan ">
+        <Soil>sod-podzolic</Soil>
+        <VisualParameters>
+            <stemColor>brown</stemColor>
+            <leafColor>green</leafColor>
+            <color>pink</color>
+        </VisualParameters>
+        <GrowingTips>
+            <temperature>21</temperature>
+            <is_lightingRequire>true</is_lightingRequire>
+            <watering>2000</watering>
+        </GrowingTips>
+        <Multiplying>seeds</Multiplying>
+    </Flower>
+</Greenhouse>
