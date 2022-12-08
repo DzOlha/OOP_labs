@@ -14,6 +14,7 @@
         </GrowingTips>
         <Propagation>cuttings</Propagation>
     </Flower>
+
     <Flower id="2" name="violet" origin="UK">
         <Soil>sod-podzolic</Soil>
         <VisualParameters>
@@ -28,6 +29,7 @@
         </GrowingTips>
         <Propagation>leaves</Propagation>
     </Flower>
+
     <Flower id="3" name="tulip" origin="Kazakhstan">
         <Soil>podzolic</Soil>
         <VisualParameters>
@@ -42,6 +44,7 @@
         </GrowingTips>
         <Propagation>seeds</Propagation>
     </Flower>
+
     <Flower id="4" name="orchidee" origin="Japan ">
         <Soil>sod-podzolic</Soil>
         <VisualParameters>

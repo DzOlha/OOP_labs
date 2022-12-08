@@ -18,6 +18,6 @@ The plants contained in the greenhouse have the following characteristics:
 * Origin - the place of origin of the plant.
 * Visual parameters (there must be several) – external parameters: stem color, leaf color, average plant size.
 * Growing tips (should be several) - preferred growing conditions: temperature (in degrees), lighting (light-requiring or not), watering (ml per week).
-* Multiplying - reproduction: leaves, cuttings or seeds.
+* Propagation - reproduction: leaves, cuttings or seeds.
  
 * #### Name the root element Flower.

@@ -1,13 +1,14 @@
-package lab2;
+package lab2.models;
 
 public class Flower {
-    private final int id;
+    private int id;
     private String name;
     private String origin;
     private Soil soil;
     private VisualParameters visual;
     private GrowingTips tips;
     private Propagation propagation;
+    public Flower(){}
     public Flower(int id, String name, String origin) {
         this.id = id;
         this.name = name;
@@ -15,6 +16,9 @@ public class Flower {
     }
     public int getId(){
         return id;
+    }
+    public void setId(int id){
+        this.id = id;
     }
     public String getName(){
         return name;
